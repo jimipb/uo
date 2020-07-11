@@ -1,0 +1,5 @@
+[parameters]
+
+lockin_ch0__sensitivity=0.000000E+0
+lockin_ch0__integration_time=0.000000E+0
+lockin_ch0__unit=

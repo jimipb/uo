@@ -1,0 +1,343 @@
+
+
+*******************************************************************************
+Sun Jun 28 19:57:44 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.4000 : 60.0000]
+        #datapoints = 16
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             B             tau          
+   0 3.4423669885e-02   0.00e+00  5.61e-01    2.500000e-01   5.250000e+01   1.000000e+01
+   7 1.0774405079e-03  -1.23e-01  5.61e-08    2.448513e-01   5.029502e+01   4.147662e+01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0.00107744
+rel. change during last iteration : -1.23113e-06
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00910385
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.288e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.244851         +/- 4.132e+10    (1.688e+13%)
+B               = 50.295           +/- 6.996e+12    (1.391e+13%)
+tau             = 41.4766          +/- 8.028        (19.36%)
+
+correlation matrix of the fit parameters:
+                A      B      tau    
+A               1.000 
+B              -1.000  1.000 
+tau             0.043 -0.043  1.000 
+
+
+*******************************************************************************
+Sun Jun 28 19:58:14 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.5000 : 60.0000]
+        #datapoints = 16
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             B             tau          
+   0 1.0774405079e-03   0.00e+00  1.94e-01    2.448513e-01   5.029502e+01   4.147662e+01
+   1 1.0774405073e-03  -5.37e-05  1.94e-02    2.448512e-01   5.029499e+01   4.147666e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00107744
+rel. change during last iteration : -5.36834e-10
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00910385
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.288e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.244851         +/- 5.01e+10     (2.046e+13%)
+B               = 50.295           +/- 8.481e+12    (1.686e+13%)
+tau             = 41.4767          +/- 8.028        (19.36%)
+
+correlation matrix of the fit parameters:
+                A      B      tau    
+A               1.000 
+B              -1.000  1.000 
+tau             0.041 -0.041  1.000 
+
+
+*******************************************************************************
+Sun Jun 28 19:58:16 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.5000 : 60.0000]
+        #datapoints = 16
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             B             tau          
+   0 1.0774405073e-03   0.00e+00  1.94e-01    2.448512e-01   5.029499e+01   4.147666e+01
+   1 1.0774405072e-03  -2.33e-06  1.94e-02    2.448512e-01   5.029499e+01   4.147671e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 0.00107744
+rel. change during last iteration : -2.33025e-11
+
+degrees of freedom    (FIT_NDF)                        : 13
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00910385
+variance of residuals (reduced chisquare) = WSSR/ndf   : 8.288e-05
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.244851         +/- 5.778e+10    (2.36e+13%)
+B               = 50.295           +/- 9.782e+12    (1.945e+13%)
+tau             = 41.4767          +/- 8.414        (20.29%)
+
+correlation matrix of the fit parameters:
+                A      B      tau    
+A               1.000 
+B              -1.000  1.000 
+tau            -0.302  0.302  1.000 
+
+
+*******************************************************************************
+Sun Jun 28 20:01:41 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.5000 : 60.0000]
+        #datapoints = 16
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau) + hoehe
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             B             tau           hoehe        
+   0 1.2759105067e-03   0.00e+00  1.61e-01    2.448512e-01   4.800000e+01   2.000000e+00   2.000000e-01
+   6 4.5561062071e-05  -3.59e-03  1.61e-07    2.453435e-01   5.047328e+01   1.282767e+00   2.026757e-01
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 4.55611e-05
+rel. change during last iteration : -3.59163e-08
+
+degrees of freedom    (FIT_NDF)                        : 12
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00194853
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.79676e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.245343         +/- 1.127e+10    (4.594e+12%)
+B               = 50.4733          +/- 5.778e+10    (1.145e+11%)
+tau             = 1.28277          +/- 0.1207       (9.411%)
+hoehe           = 0.202676         +/- 0.0008231    (0.4061%)
+
+correlation matrix of the fit parameters:
+                A      B      tau    hoehe  
+A               1.000 
+B              -1.000  1.000 
+tau             0.548 -0.548  1.000 
+hoehe          -0.223  0.223 -0.673  1.000 
+
+
+*******************************************************************************
+Sun Jun 28 20:02:00 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.5000 : 63.0000]
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau) + hoehe
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             B             tau           hoehe        
+   0 7.4023599300e-05   0.00e+00  3.11e-01    2.453435e-01   5.047328e+01   1.282767e+00   2.026757e-01
+   5 6.1028102087e-05  -1.13e-01  3.11e-06    2.453275e-01   5.034437e+01   1.375139e+00   2.015975e-01
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 6.10281e-05
+rel. change during last iteration : -1.12571e-06
+
+degrees of freedom    (FIT_NDF)                        : 18
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00184132
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.39045e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.245327         +/- 7.064e+09    (2.88e+12%)
+B               = 50.3444          +/- 3.888e+10    (7.722e+10%)
+tau             = 1.37514          +/- 0.09295      (6.76%)
+hoehe           = 0.201597         +/- 0.000566     (0.2808%)
+
+correlation matrix of the fit parameters:
+                A      B      tau    hoehe  
+A               1.000 
+B              -1.000  1.000 
+tau             0.287 -0.287  1.000 
+hoehe          -0.181  0.181 -0.597  1.000 
+
+
+*******************************************************************************
+Sun Jun 28 20:04:03 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.5000 : 63.0000]
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau) + hoehe
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             B             tau           hoehe        
+   0 5.9852785521e-01   0.00e+00  2.58e-01    2.453275e-01   5.034437e+01   2.000000e+01   2.015975e-01
+
+Current data point
+=========================
+#               = 1 out of 22
+x               = 0.22919        
+z               = 0.251284       
+
+Current set of parameters
+=========================
+A               = 0.22919        
+B               = 47.7986        
+tau             = -0.00641898    
+hoehe           = 0.208377       
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sun Jun 28 20:04:14 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.5000 : 63.0000]
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau) + hoehe
+fitted parameters initialized with current variable values
+
+
+Current data point
+=========================
+#               = 1 out of 22
+x               = 0.22919        
+z               = 0.251284       
+
+Current set of parameters
+=========================
+A               = 0.22919        
+B               = 47.7986        
+tau             = -0.00641898    
+hoehe           = 0.208377       
+
+BREAK: Undefined value during function evaluation
+
+*******************************************************************************
+Sun Jun 28 20:04:19 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [52.5000 : 63.0000]
+        #datapoints = 22
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = A*exp(-(x-B)/tau) + hoehe
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   A             B             tau           hoehe        
+   0 3.5731017128e-03   0.00e+00  1.05e-01    2.291897e-01   4.779856e+01   1.000000e+00   2.083771e-01
+  10 6.1028103088e-05  -8.99e-01  1.05e-06    2.294425e-01   5.043646e+01   1.375125e+00   2.015975e-01
+
+After 10 iterations the fit converged.
+final sum of squares of residuals : 6.10281e-05
+rel. change during last iteration : -8.99151e-06
+
+degrees of freedom    (FIT_NDF)                        : 18
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.00184132
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.39045e-06
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+A               = 0.229443         +/- 9.427e+09    (4.109e+12%)
+B               = 50.4365          +/- 5.547e+10    (1.1e+11%)
+tau             = 1.37512          +/- 0.1          (7.275%)
+hoehe           = 0.201598         +/- 0.0006089    (0.302%)
+
+correlation matrix of the fit parameters:
+                A      B      tau    hoehe  
+A               1.000 
+B              -1.000  1.000 
+tau             0.456 -0.456  1.000 
+hoehe          -0.405  0.405 -0.655  1.000 
+
+
+*******************************************************************************
+Sun Jun 28 20:05:58 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 using 1:3
+        format = x:z
+        x range restricted to [63.0000 : 180.000]
+        #datapoints = 235
+        residuals are weighted equally (unit weight)
+
+function used for fitting: h(x)
+	h(x) = anf*exp(-(x-horiz)/tau2)+vert
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   anf           horiz         tau2          vert         
+   0 1.1395738504e-02   0.00e+00  6.42e-02    2.000000e-01   3.000000e+01   5.000000e+01   1.000000e-01
+  45 7.2823555723e-05  -2.85e-02  6.42e-07    2.538034e-01   3.223083e+01   1.775994e+02  -1.495940e-02
+
+After 45 iterations the fit converged.
+final sum of squares of residuals : 7.28236e-05
+rel. change during last iteration : -2.84627e-07
+
+degrees of freedom    (FIT_NDF)                        : 231
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.000561474
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.15253e-07
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+anf             = 0.253803         +/- 8.032e+07    (3.165e+10%)
+horiz           = 32.2308          +/- 5.62e+10     (1.744e+11%)
+tau2            = 177.599          +/- 2.591        (1.459%)
+vert            = -0.0149594       +/- 0.002271     (15.18%)
+
+correlation matrix of the fit parameters:
+                anf    horiz  tau2   vert   
+anf             1.000 
+horiz          -1.000  1.000 
+tau2            0.010 -0.010  1.000 
+vert           -0.006  0.006 -0.996  1.000 

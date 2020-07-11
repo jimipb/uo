@@ -1,0 +1,1196 @@
+
+
+*******************************************************************************
+Sat Jun 27 18:39:23 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.3000]
+        #datapoints = 41
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   mu            sigma         h            
+   0 4.3610889347e+00   0.00e+00  4.96e+02    5.222780e+01   4.000000e-02   2.000000e+00
+   2 4.1323142309e+00   0.00e+00  4.96e+08    5.223626e+01   4.000159e-02   2.000050e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 4.13231
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 38
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.329765
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.108745
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+mu              = 52.2363          +/- 0.004262     (0.008159%)
+sigma           = 0.0400016        +/- 0.00295      (7.375%)
+h               = 2.00005          +/- 0.1399       (6.996%)
+
+correlation matrix of the fit parameters:
+                mu     sigma  h      
+mu              1.000 
+sigma          -0.333  1.000 
+h               0.622 -0.647  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:40:04 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   mu            sigma         h            
+   0 8.7406316280e+00   0.00e+00  4.64e+02    5.223626e+01   4.000159e-02   2.000050e+00
+   6 8.7333762393e+00   0.00e+00  4.64e+09    5.223706e+01   4.000159e-02   2.000050e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 8.73338
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 58
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.388041
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.150575
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+mu              = 52.2371          +/- 0.00416      (0.007963%)
+sigma           = 0.0400016        +/- 0.003412     (8.53%)
+h               = 2.00005          +/- 0.1607       (8.037%)
+
+correlation matrix of the fit parameters:
+                mu     sigma  h      
+mu              1.000 
+sigma          -0.520  1.000 
+h               0.620 -0.709  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:40:27 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 8.7333762393e+00   0.00e+00  9.64e-01    2.000050e+00
+   2 8.4569627640e+00  -8.50e-01  9.64e-03    2.139667e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 8.45696
+rel. change during last iteration : -8.50279e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.375432
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.140949
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 2.13967          +/- 0.0997       (4.66%)
+
+
+*******************************************************************************
+Sat Jun 27 18:40:36 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 8.4569627640e+00   0.00e+00  8.93e-01    4.000159e-02
+   6 3.5579905458e+00  -8.97e-01  8.93e-07    5.694910e-02
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 3.55799
+rel. change during last iteration : -8.97387e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.243516
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0592998
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0569491        +/- 0.001683     (2.955%)
+
+
+*******************************************************************************
+Sat Jun 27 18:40:49 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 3.5579905458e+00   0.00e+00  1.23e+00    2.139667e+00
+   3 2.1785473969e+00  -4.43e-07  1.23e-03    1.878230e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.17855
+rel. change during last iteration : -4.4251e-12
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.19055
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0363091
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.87823          +/- 0.04242      (2.258%)
+
+
+*******************************************************************************
+Sat Jun 27 18:41:02 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma         h            
+   0 2.1785473969e+00   0.00e+00  1.01e+00    5.694910e-02   1.878230e+00
+   6 1.2109656192e+00  -1.28e-03  1.01e-06    6.932463e-02   1.715837e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -1.27653e-08
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143265
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0205248
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0693246        +/- 0.001761     (2.541%)
+h               = 1.71584          +/- 0.0359       (2.092%)
+
+correlation matrix of the fit parameters:
+                sigma  h      
+sigma           1.000 
+h              -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:41:31 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 1.2109656192e+00   0.00e+00  8.96e-01    6.932463e-02
+   1 1.2109656192e+00   0.00e+00  8.96e+04    6.932463e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.142066
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0201828
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0693246        +/- 0.001408     (2.031%)
+
+
+*******************************************************************************
+Sat Jun 27 18:41:39 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 1.2109656192e+00   0.00e+00  1.09e+00    1.715837e+00
+   1 1.2109656192e+00  -2.20e-08  1.09e-01    1.715837e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -2.19667e-13
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.142066
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0201828
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71584          +/- 0.02869      (1.672%)
+
+
+*******************************************************************************
+Sat Jun 27 18:41:53 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 1.2109656192e+00   0.00e+00  1.09e+00    1.715837e+00
+   1 1.2109656192e+00   0.00e+00  1.09e-01    1.715837e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.142066
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0201828
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71584          +/- 0.02869      (1.672%)
+
+
+*******************************************************************************
+Sat Jun 27 18:42:13 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 2.0423076759e+00   0.00e+00  9.92e-01    6.932463e-02
+   5 1.6778293132e+00  -1.56e-01  9.92e-06    6.348430e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.67783
+rel. change during last iteration : -1.55817e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.167224
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0279638
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0634843        +/- 0.001397     (2.201%)
+
+
+*******************************************************************************
+Sat Jun 27 18:42:21 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 1.6778293132e+00   0.00e+00  1.15e+00    1.900000e+00
+   3 1.4022709165e+00  -1.37e-07  1.15e-03    1.789287e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.40227
+rel. change during last iteration : -1.37318e-12
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.152876
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0233712
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.78929          +/- 0.03224      (1.802%)
+
+
+*******************************************************************************
+Sat Jun 27 18:42:31 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 1.4022709165e+00   0.00e+00  9.16e-01    6.348430e-02
+   4 1.2869298834e+00  -1.91e-01  9.16e-05    6.688234e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.28693
+rel. change during last iteration : -1.91199e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.146454
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0214488
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0668823        +/- 0.001351     (2.02%)
+
+
+*******************************************************************************
+Sat Jun 27 18:42:45 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma        
+   0 1.8046698799e+00   0.00e+00  1.09e+00    1.900000e+00   6.688234e-02
+   4 1.2109654236e+00  -8.11e-01  1.09e-04    1.715945e+00   6.931569e-02
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -8.10738e-06
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143265
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0205248
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71595          +/- 0.0359       (2.092%)
+sigma           = 0.0693157        +/- 0.001761     (2.54%)
+
+correlation matrix of the fit parameters:
+                h      sigma  
+h               1.000 
+sigma          -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:43:33 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma        
+   0 1.6648600483e+00   0.00e+00  1.05e+00    1.890000e+00   6.200000e-02
+   5 1.2109654043e+00  -3.65e-01  1.05e-05    1.715903e+00   6.931919e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -3.64571e-06
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143265
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0205248
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.7159           +/- 0.0359       (2.092%)
+sigma           = 0.0693192        +/- 0.001761     (2.541%)
+
+correlation matrix of the fit parameters:
+                h      sigma  
+h               1.000 
+sigma          -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:43:49 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma        
+   0 2.0368280517e+00   0.00e+00  9.41e-01    1.715903e+00   6.000000e-02
+   5 1.2109654012e+00  -3.95e-01  9.41e-06    1.715907e+00   6.931890e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -3.94704e-06
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143265
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0205248
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71591          +/- 0.0359       (2.092%)
+sigma           = 0.0693189        +/- 0.001761     (2.541%)
+
+correlation matrix of the fit parameters:
+                h      sigma  
+h               1.000 
+sigma          -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:44:08 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma        
+   0 1.8185567651e+00   0.00e+00  1.04e+00    1.900000e+00   6.000000e-02
+   5 1.2109654183e+00  -7.75e-01  1.04e-05    1.715942e+00   6.931594e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -7.74514e-06
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143265
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0205248
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71594          +/- 0.0359       (2.092%)
+sigma           = 0.0693159        +/- 0.001761     (2.54%)
+
+correlation matrix of the fit parameters:
+                h      sigma  
+h               1.000 
+sigma          -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:44:18 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma         h            
+   0 1.8185567651e+00   0.00e+00  1.04e+00    6.000000e-02   1.900000e+00
+   5 1.2109654183e+00  -7.75e-01  1.04e-05    6.931594e-02   1.715942e+00
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -7.74514e-06
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143265
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0205248
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0693159        +/- 0.001761     (2.54%)
+h               = 1.71594          +/- 0.0359       (2.092%)
+
+correlation matrix of the fit parameters:
+                sigma  h      
+sigma           1.000 
+h              -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:44:46 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 1.8185567651e+00   0.00e+00  1.12e+00    1.900000e+00
+   3 1.7310450278e+00  -3.53e-08  1.12e-03    1.835839e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.73105
+rel. change during last iteration : -3.53133e-13
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.169855
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0288508
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.83584          +/- 0.03684      (2.007%)
+
+
+*******************************************************************************
+Sat Jun 27 18:45:40 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 3.9857975480e+00   0.00e+00  1.02e+00    1.900000e+00
+   2 3.8715416414e+00  -7.68e-01  1.02e-02    1.980290e+00
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 3.87154
+rel. change during last iteration : -7.67735e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.254019
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0645257
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.98029          +/- 0.06034      (3.047%)
+
+
+*******************************************************************************
+Sat Jun 27 18:45:48 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 2.6598326085e+00   0.00e+00  1.12e+00    1.980290e+00
+   3 2.5525162942e+00  -2.94e-08  1.12e-03    1.906093e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 2.55252
+rel. change during last iteration : -2.93854e-13
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.206257
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0425419
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.90609          +/- 0.04672      (2.451%)
+
+
+*******************************************************************************
+Sat Jun 27 18:45:53 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 1.8359653490e+00   0.00e+00  1.13e+00    1.906093e+00
+   3 1.7310450278e+00  -4.24e-08  1.13e-03    1.835839e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.73105
+rel. change during last iteration : -4.23554e-13
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.169855
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0288508
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.83584          +/- 0.03684      (2.007%)
+
+
+*******************************************************************************
+Sat Jun 27 18:46:06 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma        
+   0 1.7310450278e+00   0.00e+00  1.01e+00    1.835839e+00   6.000000e-02
+   5 1.2109654028e+00  -6.35e-01  1.01e-05    1.715931e+00   6.931692e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.21097
+rel. change during last iteration : -6.3535e-06
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143265
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0205248
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71593          +/- 0.0359       (2.092%)
+sigma           = 0.0693169        +/- 0.001761     (2.54%)
+
+correlation matrix of the fit parameters:
+                h      sigma  
+h               1.000 
+sigma          -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:46:10 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma         mu           
+   0 1.2109654028e+00   0.00e+00  3.18e+02    1.715931e+00   6.931692e-02   5.223706e+01
+   2 1.1879493524e+00   0.00e+00  3.18e+08    1.715938e+00   6.931680e-02   5.223938e+01
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 1.18795
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 58
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.143115
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0204819
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71594          +/- 0.03957      (2.306%)
+sigma           = 0.0693168        +/- 0.001884     (2.718%)
+mu              = 52.2394          +/- 0.001935     (0.003704%)
+
+correlation matrix of the fit parameters:
+                h      sigma  mu     
+h               1.000 
+sigma          -0.653  1.000 
+mu              0.423 -0.364  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:46:39 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   mu           
+   0 1.8472993801e+00   0.00e+00  6.03e+02    5.223938e+01
+   1 1.8472993801e+00   0.00e+00  6.03e+08    5.223938e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.8473
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.175466
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0307883
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+mu              = 52.2394          +/- 0.001946     (0.003724%)
+
+
+*******************************************************************************
+Sat Jun 27 18:46:46 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 1.8472993801e+00   0.00e+00  9.84e-01    6.931680e-02
+   5 1.5675232926e+00  -1.05e-01  9.84e-06    6.416694e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.56752
+rel. change during last iteration : -1.04969e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.161633
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0261254
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0641669        +/- 0.001373     (2.14%)
+
+
+*******************************************************************************
+Sat Jun 27 18:47:13 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1300 : 52.3500]
+        #datapoints = 45
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 5.8705646392e-01   0.00e+00  9.73e-01    6.416694e-02
+   3 3.2692791346e-01  -6.78e-01  9.73e-04    5.924166e-02
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 0.326928
+rel. change during last iteration : -6.77884e-06
+
+degrees of freedom    (FIT_NDF)                        : 44
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.0861985
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.00743018
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0592417        +/- 0.0007681    (1.297%)
+
+
+*******************************************************************************
+Sat Jun 27 18:47:24 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma         mu           
+   0 1.8473934777e+00   0.00e+00  3.77e+02    1.880000e+00   5.924166e-02   5.223938e+01
+   1 1.8473934777e+00   0.00e+00  3.77e+09    1.880000e+00   5.924166e-02   5.223938e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.84739
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 58
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.17847
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0318516
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.88             +/- 0.05432      (2.889%)
+sigma           = 0.0592417        +/- 0.00193      (3.258%)
+mu              = 52.2394          +/- 0.002096     (0.004012%)
+
+correlation matrix of the fit parameters:
+                h      sigma  mu     
+h               1.000 
+sigma          -0.660  1.000 
+mu              0.472 -0.404  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:47:38 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h             sigma        
+   0 1.8473934777e+00   0.00e+00  1.03e+00    1.880000e+00   5.924166e-02
+   5 1.1879074585e+00  -7.34e-01  1.03e-05    1.714927e+00   6.940570e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.18791
+rel. change during last iteration : -7.33513e-06
+
+degrees of freedom    (FIT_NDF)                        : 59
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.141894
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.020134
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71493          +/- 0.03553      (2.072%)
+sigma           = 0.0694057        +/- 0.001743     (2.511%)
+
+correlation matrix of the fit parameters:
+                h      sigma  
+h               1.000 
+sigma          -0.592  1.000 
+
+
+*******************************************************************************
+Sat Jun 27 18:47:53 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 1.1879074585e+00   0.00e+00  1.09e+00    1.714927e+00
+   1 1.1879074585e+00  -5.78e-09  1.09e-01    1.714927e+00
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.18791
+rel. change during last iteration : -5.77585e-14
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.140707
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0197985
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71493          +/- 0.0284       (1.656%)
+
+
+*******************************************************************************
+Sat Jun 27 18:48:04 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   h            
+   0 1.8567567144e+00   0.00e+00  1.19e+00    1.880000e+00
+   3 1.1879074585e+00  -3.94e-07  1.19e-03    1.714927e+00
+
+After 3 iterations the fit converged.
+final sum of squares of residuals : 1.18791
+rel. change during last iteration : -3.93506e-12
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.140707
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0197985
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+h               = 1.71493          +/- 0.0284       (1.656%)
+
+
+*******************************************************************************
+Sat Jun 27 18:48:25 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 1.7781744806e+00   0.00e+00  9.79e-01    6.940570e-02
+   5 1.5236536767e+00  -9.28e-02  9.79e-06    6.446509e-02
+
+After 5 iterations the fit converged.
+final sum of squares of residuals : 1.52365
+rel. change during last iteration : -9.28204e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.159356
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0253942
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0644651        +/- 0.001365     (2.118%)
+
+
+*******************************************************************************
+Sat Jun 27 18:48:44 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   mu           
+   0 1.5236536767e+00   0.00e+00  6.23e+02    5.223938e+01
+   1 1.5236536767e+00   0.00e+00  6.23e+08    5.223938e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.52365
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.159356
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0253942
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+mu              = 52.2394          +/- 0.00171      (0.003273%)
+
+
+*******************************************************************************
+Sat Jun 27 18:48:49 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 1.5236536767e+00   0.00e+00  9.63e-01    6.446509e-02
+   1 1.5236534741e+00  -1.33e-02  9.63e-02    6.446404e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.52365
+rel. change during last iteration : -1.32978e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.159356
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0253942
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.064464         +/- 0.001365     (2.118%)
+
+
+*******************************************************************************
+Sat Jun 27 18:48:58 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   mu           
+   0 1.5236534741e+00   0.00e+00  6.23e+02    5.223938e+01
+   1 1.5236534741e+00   0.00e+00  6.23e+08    5.223938e+01
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.52365
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.159356
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0253942
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+mu              = 52.2394          +/- 0.00171      (0.003273%)
+
+
+*******************************************************************************
+Sat Jun 27 18:49:29 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 1.5418104645e+00   0.00e+00  9.61e-01    6.446404e-02
+   2 1.5417078323e+00  -4.31e-01  9.61e-03    6.437808e-02
+
+After 2 iterations the fit converged.
+final sum of squares of residuals : 1.54171
+rel. change during last iteration : -4.30669e-06
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.160297
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0256951
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.0643781        +/- 0.001375     (2.135%)
+
+
+*******************************************************************************
+Sat Jun 27 19:32:21 2020
+
+
+FIT:    data read from "lockin_ch0_x.dat" every ::1 u 1:(($3/3.646630e-4))
+        format = x:z
+        x range restricted to [52.1000 : 52.4000]
+        #datapoints = 61
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=1+(exp((-(x-mu)**2)/(2*sigma**2)))*h
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   sigma        
+   0 1.5417078323e+00   0.00e+00  9.61e-01    6.437808e-02
+   1 1.5417071238e+00  -4.60e-02  9.61e-02    6.437500e-02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 1.54171
+rel. change during last iteration : -4.59532e-07
+
+degrees of freedom    (FIT_NDF)                        : 60
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.160297
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.0256951
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+sigma           = 0.064375         +/- 0.001375     (2.135%)

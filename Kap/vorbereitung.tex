@@ -136,6 +136,13 @@ Resonator. Durch einen sättigbaren Absorber, \emph{SAM}, der nur kurze intensiv
 Impulse transmittiert, wird der gepulste Charakter des Lasers erreicht. Nach dem 
 Verlassen des Oszillators erfolgt eine weitere Verstärkung in einer dotierten 
 Glasfaser, wieder durch eine Diode gepumpt, bevor der Impuls ausgesendet wird. 
+Daraus wird eine Pulsenergie von ~$\SI{0,8}{eV}$ erreicht.
+Eine interessante Folge des gepulsten Charakters mit derart hohen Energien findet
+sich in der Pulsform des Lasers. Anstatt eines monochromatischen Spektrums, wie 
+man es von Lasern erwarten würde, hat der Laser eine breitere
+Wellenlängenverteilung. Dies ist mit der Energie-Zeit Unschärfe zu begründen.
+Durch die hohen Energien ist die Zeit nicht mehr scharf genug aufgelöst, um 
+eine schmale Wellenlängenverteilung zu erreichen.
 \autocite{phying, zinth}
 \begin{figure}[H]
   \centering
@@ -215,6 +222,20 @@ die Drehung der Feldrichtung über die Zeit einen Kreis in der x-y Ebene. Es gil
 
 Für alle anderen Fälle ist das Licht \textbf{elliptisch polarisiert}. Die 
 Drehung der Feldrichtung beschreibt eine Ellipse in der x-y Ebene.
+
+Diese Eigenschaft findet zum Beispiel in Polarisatoren und Analysatoren Anwendung.
+Es gibt Materialien, die nur Licht einer bestimmten Polarisationsrichtung
+transmittieren. So spricht man von einem Linear-, Zirkular-, oder einem elliptischen
+Polarisator. Verwendet man zwei Polarisatoren nacheinander, so spricht man von 
+einem Analysator.
+Aus der Quelle wird mithilfe des ersten Polarisator nur eine bestimmte
+Richtung transmittiert. Den zweiten gleichartigen Polarisator kann man 
+dann um einen Winkel $\Theta$ verdrehen, sodass nur noch ein Teil des Lichts
+transmittiert wird. Wird er um $90^\circ$ verdreht, so wird die komplette
+Intensität gefilter. Quantitativ ergibt sich
+\[
+    I(\Theta) = I_0 \cos^2 \Theta
+\]
 
 In der linearen Optik werden Materialien betrachtet, die optisch isotrop sind.
 Die Lichtausbreitung war also unabhängig von der Richtung. Es gilt
@@ -307,7 +328,10 @@ $\Theta=0$, ergibt sich $n_0$ als einziger Brechungsindex, sodass in diesem Fall
 ordentliche Strahl beobachtet werden kann.
 
 \autocite{zinth}, \autocite{hecht}
+
     \subsection{Phasenanpassung}
+
+
 
     \subsection{Nichtlineare Autokorrelation}
 
