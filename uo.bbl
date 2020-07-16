@@ -19,6 +19,12 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{wiki:lambdahalbe}{misc}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{howpublished}{\url{https://upload.wikimedia.org/wikipedia/commons/c/c7/Waveplate_notext.png}}
+      \field{note}{Zuletzt Zugegriffen: 11.07.2020}
+    \endentry
     \entry{zinth}{book}{}
       \name{author}{3}{}{%
         {{hash=04f295bc0a7fa5de5f839c23849c1ca1}{%
@@ -52,6 +58,78 @@
       \field{labeltitlesource}{title}
       \field{title}{Optik: Lichtstrahlen - Wellen - Photonen}
       \field{year}{2013}
+    \endentry
+    \entry{Boyd}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5deda664a6cf03ea0cb9cb40c827addd}{%
+           family={Boyd},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{fullhash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{bibnamehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{authorbibnamehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{authornamehash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \strng{authorfullhash}{5deda664a6cf03ea0cb9cb40c827addd}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nonlinear Optics}
+      \field{year}{2008}
+    \endentry
+    \entry{demtroeder}{book}{}
+      \name{author}{1}{}{%
+        {{hash=5b63097d1e0b668f25cbef28a8ee686d}{%
+           family={Demtröder},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{5b63097d1e0b668f25cbef28a8ee686d}
+      \strng{fullhash}{5b63097d1e0b668f25cbef28a8ee686d}
+      \strng{bibnamehash}{5b63097d1e0b668f25cbef28a8ee686d}
+      \strng{authorbibnamehash}{5b63097d1e0b668f25cbef28a8ee686d}
+      \strng{authornamehash}{5b63097d1e0b668f25cbef28a8ee686d}
+      \strng{authorfullhash}{5b63097d1e0b668f25cbef28a8ee686d}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experimentalphysik 2}
+      \field{year}{2017}
+    \endentry
+    \entry{Diels2006}{book}{}
+      \name{author}{2}{}{%
+        {{hash=2f4d434daae949030d01b8af7289d140}{%
+           family={Diels},
+           familyi={D\bibinitperiod},
+           given={Jean-Claude},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=0b960401a4572d7a6008085ba66e49e2}{%
+           family={Rudolph},
+           familyi={R\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{c476cec52a2a6079bfb6bf9291f27631}
+      \strng{fullhash}{c476cec52a2a6079bfb6bf9291f27631}
+      \strng{bibnamehash}{c476cec52a2a6079bfb6bf9291f27631}
+      \strng{authorbibnamehash}{c476cec52a2a6079bfb6bf9291f27631}
+      \strng{authornamehash}{c476cec52a2a6079bfb6bf9291f27631}
+      \strng{authorfullhash}{c476cec52a2a6079bfb6bf9291f27631}
+      \field{sortinit}{D}
+      \field{sortinithash}{2ef1bd9a78cc71eb74d7231c635177b8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ultrashort Laser Pulse Phenomena}
+      \field{year}{2006}
     \endentry
     \entry{hecht}{book}{}
       \name{author}{1}{}{%

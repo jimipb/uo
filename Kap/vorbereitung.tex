@@ -176,6 +176,12 @@ Abbildung schraffiert, und das Signal kann weiter ausgewertet werden.
 
     \subsection{Pump-Probe Versuch}
 
+Zur Untersuchung der Ladungsträgerdynamik in InGaAs wird ein sogenannter Pump-Probe Versuch verwendet. Hierbei wird die Probe (in unserem Fall der InGaAs Kristall) zunächst von einem leistungsstarken Pumppuls angeregt und anschließend von einem schwächeren Abtastpuls durchlaufen, welcher schließlich auf eine Photodiode trifft. Die Transmission des Abtastpulses hängt nun davon ab, wie viele Elektronen sich im angeregten Zustand befinden, bzw. anders ausgedrückt: wie viele Photonen noch absorbiert werden können. Trägt man nun die transmittierte Intensität des Abtastpulses gegen die Verzögerungszeit $\tau$ zwischen dem Auftreffen der beiden Pulse auf, so kann beobachtet werden, wie sich die Ladungsträger der Probe im angeregten Zustand verhalten: Bei einer Verzögerungszeit von $\tau<0$ trifft der Abtastpuls auf eine noch nicht angeregte Probe, d.h. hier findet die minimale Transmission statt. Bei $\tau=0$ steigt die Transmission stark an, da der Pumppuls nun schon Elektronen angeregt hat und der Abtastpuls somit weniger absorbiert wird. Bei $\tau>0$ sinkt die Transmission mit steigender Verzögerungszeit wieder, da in der Zeit zwischen Anregung durch den ersten Puls und Eintreffen des zweiten Pulses schon wieder Elektronen ins Valenzband rekombiniert sind.
+
+In diesem Versuch entstehen Pump- und Abtastpuls dadurch, dass ein Laserpuls durch einen $97:3$ Strahlteiler in einen starken und einen schwachen Puls aufgeteilt werden.      
+
+\autocite{Diels2006}
+
 \section{Nichtlineare Optik}
     \subsection{Doppelbrechung}
 
@@ -327,11 +333,97 @@ eingeschlossene Winkel. Für einen zur optischen Achse parallelen Strahl,
 $\Theta=0$, ergibt sich $n_0$ als einziger Brechungsindex, sodass in diesem Fall
 ordentliche Strahl beobachtet werden kann.
 
-\autocite{zinth}, \autocite{hecht}
+\paragraph*{Polarisationsdreher:} Eine wichtige, auch in diesem Versuch benutzte, Anwendung	der Doppelbrechung ist der Polarisationsdreher, oft einfach "$\lambda/2$-Plättchen"{} genannt. Es besteht meist aus einer dünnen Schicht eines doppelbrechenden Materials (z.B. Kalkspat) und kann dazu verwendet werden, die Polarisationsrichtung von linear polarisiertem Licht um einen beliebigen Winkel zu drehen: Fällt eine elektromagnetische Welle mit einer zur optischen Achse des $\lambda/2$-Plättchens um den Winkel $\alpha$ geneigten Polarisation ein, so wird diese beim Durchlaufen des Polarisationsdrehers um den Winkel $2\alpha$ gedreht. Der Effekt kommt dadurch Zustande, dass sich nach Durchlaufen des Plättchens zwischen dem zur optischen Achse parallelen und senkrechten Polarisationsanteil eine Phasendifferenz von $\lambda/2$ ergibt, welche in der entsprechenden Drehung der Polarisation resultiert. Der Prozess ist in Abb. \ref{lambda_halbe} veranschaulicht.
+
+In diesem Versuch wird der Polarisationsdreher in Kombination mit einem Polfilter verwendet, wodurch es möglich ist, die Intensität des Pumpstrahls stufenlos einzustellen ohne dabei dessen Polarisationsrichtung zu ändern, wie im Abschnitt zum Analysator beschrieben. Für die Intensität gilt
+
+\[I=I_{0}\, \cos^2(\alpha)\]
+
+\begin{figure}[H]
+	\centering
+        \includegraphics[width=0.8\textwidth]{Abb/lambda_halbe.png}
+        \caption{Veranschaulichung des im Polarisationsdreher ablaufenden Prozesses. Die Polarisation der Welle ist als roter Pfeil dargestellt, die optische Achse des $\lambda/2$-Plättchens in grün.\autocite{wiki:lambdahalbe}}
+	\label{lambda_halbe}
+\end{figure}
+
+\autocite{zinth}, \autocite{hecht}, \autocite{demtroeder}
 
     \subsection{Phasenanpassung}
 
+Eine weitere Anwendung der Doppelbrechung in diesem Versuch findet sich in der
+Phasenanpassung.
 
+Durch die Frequenzabhängigkeit des Brechungsindex $n=n(\omega)$, propagiert Licht
+unterschiedlicher Wellenlänge nicht gleich schnell durch das Medium.
+Über weite Teile der Frequenzspektrums findet sich die normale Dispersion
+$\frac{dn}{d\omega} > 0$. In der Nähe der Resonanzfrequenz kommt es aber auch 
+zur sogenannten annormalen Dispersion $\frac{dn}{d\omega} < 0$. 
+
+Für unseren ersten Versuchsteil, bei dem die zweite harmonische des Laserlichts
+generiert werden soll (SHG), bedeutet die Dispersion, dass die Ausgangswelle und die 
+zweite Harmonische (SH) unterschiedlich schnell durch das Medium propagieren. 
+So kommt es noch im Kristall zu destruktiver Interferenz, was eine effiziente 
+Generierung unmöglich macht.
+Abhilfe schafft hier die Phasenanpassung. Sollen beide Wellen den Stoff gleich
+durchlaufen muss die Bedingung $\Delta k = 0$ offensichtlich erfüllt sein. 
+
+In der Praxis kann man verschiedene Methoden nutzen. Man kann einerseits die 
+annormale Dispersion nahe an Resonanzfrequenzen nutzen, häufiger kommt allerdings
+die Doppelbrechung zum Einsatz. Das Prinzip soll anhand der SHG im negativen
+optisch einachsigen Kristall, $n_{ao} < n_o$, gezeigt werden.
+Die Ausgangswelle propagiert als ordentliche Welle mit $n_o$, während die 
+senkrecht dazu polarisierte SH das Medium als außerordentliche Welle mit $n_{ao}$ 
+durchläuft. Zur Phasenanpassung muss $n_{ao} (2 \omega, \Theta) = n_o(\omega)$ 
+gelten. Hierbei ist der außerordentliche Brechungsindex Winkelabhängig, wie im
+vorherigen Kapitel zu Doppelbrechung erklärt. Mit dem Zusammenhang der beiden
+Brechungsindizes aus dem letzten Kapitel ergibt sich
+\[
+    \frac{\sin^2 \Theta}{n_{ao}^2(2\omega)} + \frac{\cos^2 \Theta}{n_o^2 (2\omega)}
+    = \frac{1}{n_o^2 (\omega)}
+\]
+Nach einigen Umstellungen erhält man
+\[
+    \sin^2 \Theta = \frac{
+                        \frac{1}{n_o^2(\omega)} - \frac{1}{n_o^2(2\omega)}
+                    }{
+                        \frac{1}{n_{ao}^2(2\omega)} - \frac{1}{n_o^2(2\omega)}
+                    }
+\]
+Der Kristall muss also in einem berechenbaren Winkel $\Theta$ zum Strahl stehen,
+um eine effiziente SHG zu erreichen.
+
+\autocite{Boyd}
 
     \subsection{Nichtlineare Autokorrelation}
+
+Elektronische Bauteile sind viel zu langsam, um die Dauer von Pulsen im Femtosekundenbereich zu erfassen. Um dieses Problem zu lösen, bedient man sich der sogenannten "{}Autokorrelation". 
+Mathematisch ist die Autokorrelation $A_{c}$ für einen Puls der Intensität $I$ in der Zeit-Darstellung folgendermaßen definiert:
+
+\[A_{c}(\tau)=\int_{-\infty}^{\infty}dt I(t)I(t-\tau)\]
+In der Regel wird bei diesem Verfahren die Form des Pulses vorher als gegeben angenommen, damit bei vorliegendem Autokorrelationssignal Rückschlüsse auf die tatsächliche Impulsdauer gezogen werden können. Oft wird hierfür die Gaußfunktion oder der Sekans Hyperbolicus verwendet, bei unserem Versuch werden wir mit der Gaußfunktion arbeiten. In Tabellen kann somit nachgeschlagen werden, welches Verhältnis der FDHM (full duration at half maximum) von Autokorrelationssignal und ursprünglichem Puls vorliegt. Für die Gaußfunktion gilt:
+
+\[\dfrac{\text{FDHM}_{AK}}{\text{FDHM}_{S}}=\sqrt{2}\]
+was sich folgendermaßen herleiten lässt:
+
+Ohne Beschränkung der Allgemeinheit kann zunächst von einer zentrierten Gaußfunktion ausgegangen werden, da eine Verschiebung die FDHM nicht verändert:
+
+\[g_{0,\sigma^2}(t)=\dfrac{1}{\sqrt{2\pi\sigma^2}}e^{\dfrac{-t^2}{2\sigma^2}}\]
+welche ihr Maximum bei $t=0$ mit $g_{0,\sigma^2}(t=0)=\dfrac{1}{\sqrt{2\pi\sigma^2}}$ annimmt. Die FDHM ist also $|t_{2}-t_{1}|$ mit $g_{0,\sigma^2}(t_{1})=g_{0,\sigma^2}(t_{2})=\dfrac{1}{2\sqrt{2\pi\sigma^2}}$
+
+Berechnung von $t_{1,2}$:
+\begin{align*}
+\dfrac{1}{2\sqrt{2\pi\sigma^2}}&=\dfrac{1}{\sqrt{2\pi\sigma^2}}e^{\dfrac{-t^2}{2\sigma^2}}\\
+\dfrac{1}{2}&=e^{\dfrac{-t^2}{2\sigma^2}}\\
+ln\Big(\dfrac{1}{2}\Big)&=\dfrac{-t^2}{2\sigma^2}\\
+2\sigma^2ln\Big(\dfrac{1}{2}\Big)&=-t^2\\
+t_{1,2}&=\pm\sqrt{2ln(2)}\sigma\\
+\Rightarrow \text{FDHM}&=2\sqrt{2ln(2)}\sigma\approx2,355\sigma
+\end{align*}
+
+Bei der Gaußfunktion gilt nach Faltungseigenschaften, dass sich die Varianz $\tilde{\sigma}^2$ des ursprünglichen Pulses zur Varianz der Autokorrelation $\sigma^2$ verdoppelt, also
+\[2\tilde{\sigma}^2=\sigma^2 \Leftrightarrow \dfrac{\sigma}{\tilde{\sigma}}= \dfrac{2,355\sigma}{2,355\tilde{\sigma}} = \dfrac{\text{FDHM}_{AK}}{\text{FDHM}_{S}}=\sqrt{2}\]
+
+Technisch wird die Autokorrelation in diesem Versuch als "Nichtlineare Autokorrelation"{} realisiert: Der Laserpuls wird mittels Strahlteiler in zwei Teile gleicher Intensität aufgespalten, wovon einer über eine Verzögerungsstrecke geschickt wird. Anschließend werden beide Teilpulse auf eine Siliziumdiode fokussiert und deren Signal in Abhängigkeit der Verzögerungszeit aufgetragen. Die Photodiode besitzt eine Bandlücke von ca. $1,1\si{\electronvolt}$, was überhalb der Photonenenergie des Lasers von ca. $0,8\si{\electronvolt}$ liegt, wodurch zur Interbandanregung das nichtlineare Phänomen der Zweiphotonenabsorption benötigt wird, welche quadratisch mit der Intensität skaliert. Zur Veranschaulichung des Prozesses geben wir das Autokorrelationssignal in Abhängigkeit der Intensitäten $I_{A}$ und $I_{B}$ der beiden Pulsteile für die zwei Extremsituationen an: Überlappen sich die Pulse zeitlich nicht, so wird die Photodiode als Signal lediglich die Summe der beiden quadratischen Intensitäten anzeigen: $A_{c}=I_{A}^2+I_{B}^2$. Bei vollem Überlapp wird jedoch folgendes angezeigt: $A_{c}=(I_{A}+I_{B})^2$. Im ersten Fall werden nämlich einfach doppelt so viele Elektronen ins Leitungsband befördert, wie bei einem einzigen eintreffenden Puls, da die Pulse hintereinander auf die Diode treffen und sich ihre Intensitäten nicht überlagern. Im zweiten Fall jedoch herrscht zu jeder Zeit die doppelte Intensität eines einzelnen Pulses in der Diode, da beide Pulse zeitgleich auftreffen. Da die Zweiphotonenanregung quadratisch von der Intensität abhängt, ergibt sich somit ein anderes Signal als im ersten Fall.
+
+\autocite{Boyd}
 

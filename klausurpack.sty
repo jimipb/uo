@@ -1,23 +1,40 @@
 \ProvidesPackage{klausurpack} % wie Dateiname
 
 % kein \usepackage...
-\RequirePackage{expl3}    %lädt Paket, falls noch nicht geladen
+\RequirePackage[utf8]{inputenc}
+\RequirePackage[ngerman]{babel}	%lädt Paket, falls noch nicht geladen
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+
+\RequirePackage{expl3}
 
 \RequirePackage{l3keys2e}
 
 \RequirePackage{amsmath}
 \RequirePackage{amssymb}
+\RequirePackage{amsfonts}
+\RequirePackage{siunitx}
+\RequirePackage{float}
+
+\RequirePackage{csquotes}
+\RequirePackage{rotating}
 
 \RequirePackage{xparse}
 
+\RequirePackage{hyperref}
+\RequirePackage{url}
+
 \RequirePackage{tikz}
 \RequirePackage{xcolor}
+\RequirePackage{pgfplots}
 
 \RequirePackage{graphicx}
 
 \RequirePackage{scrlayer-scrpage}
 
 \RequirePackage{lastpage}
+
+%-----------------------------------------------------------------------------------------
 
 \definecolor{Reingrau}{RGB}{142,141,141}
 \definecolor{Eisvogelblau}{RGB}{0,137,147}
@@ -35,7 +52,7 @@
 		\vspace{1.5cm}
 		{\huge\bfseries \@title \par}
 		\vspace{2cm}
-		\includegraphics[width=0.6\textwidth]{ur_logo.png}\par
+		\includegraphics[width=0.6\textwidth]{ur_logo}\par
 		\vfill
 		{\large \color{Eisvogelblau}{\@author}\par}
 
@@ -48,11 +65,12 @@
 
 %-------------------------------------------------------------------------------------------
 
-\addtokomafont{chapter}{\color{blue}} %section in Farbe
-%\addtokomafont{section}{\color{green}}
-%\addtokomafont{subsection}{\color{red}} 
+\addtokomafont{chapter}{\color{blue}} %chapter in Farbe
+%\addtokomafont{section}{\color{green}} %section in Farbe
+%\addtokomafont{subsection}{\color{red}}  %subsection in Farbe
 
 %-------------------------------------------------------------------------------------------
+%Erster neuer Pagestyle Versuch mit durchgezogener Linie innerhalb der Kopfzeile, sowie Titel und F-Praktikum und Seitenzahl in der Fußzeile
 
 %\pagestyle{headings}
 %\renewcommand{\chapterpagestyle}{headings}
@@ -75,16 +93,17 @@
 			\end{tikzpicture}
 		},background]{kopf_2}
 		
-\DeclareNewLayer[foot, contents={%
-			\begin{center}%
-			    \thepage~von~\pageref{LastPage}%
-			\end{center}}%
+\DeclareNewLayer[foot, contents={
+			\begin{center}
+			Seite~\oldstylenums{\thepage}~von~\pageref{LastPage} %\oldstylenums variiert die Schrifthöhe der Zahlen
+			\end{center}
+			}
 			]{fuß}
 			
 				
 \DeclareNewPageStyleByLayers{logo_stil}{kopf, kopf_2, fuß}
-\RedeclarePageStyleByLayers{plain.scrheadings}{fuß}
-\AddLayersToPageStyle{plain}{kopf, kopf_2}
+\RedeclarePageStyleByLayers{plain.scrheadings}{kopf, kopf_2, fuß}
+%\AddLayersToPageStyle{plain}{kopf, kopf_2}
 
 \pagestyle{logo_stil}
 
